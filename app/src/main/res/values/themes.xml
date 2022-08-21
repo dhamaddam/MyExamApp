@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyExam" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_background</item>
+        <item name="colorPrimaryVariant">@color/button_tranparent_blue</item>
+        <item name="colorOnPrimary">@color/light_blue</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_background</item>
+        <item name="colorSecondaryVariant">@color/button_tranparent_blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <!--you can change the activity background color-->
+        <item name="android:windowBackground">@color/blue_background</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- extend the base theme to add styles available only with API level 21+ -->
+    <style name="AppTheme" parent="Theme.MyExam">
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowEnterTransition">@android:transition/slide_right</item>
+        <item name="android:windowExitTransition">@android:transition/slide_left</item>
+    </style>
+
+    <style name="TitleFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:fontFamily">@font/allertastencil</item>
+    </style>
+
+</resources>

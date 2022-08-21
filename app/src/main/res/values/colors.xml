@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light_green">#55D588</color>
+    <color name="blue_background">#000F23</color>
+    <color name="light_blue">#076BDA</color>
+    <color name="text_blue">#508BC8</color>
+    <color name="love_orange">#DA5307</color>
+    <color name="star_gold">#FFC000</color>
+    <color name="select_green">#70DE7D</color>
+    <color name="button_green">#009821</color>
+    <color name="button_yellow">#FCC326</color>
+    <color name="button_orange">#FF8A00</color>
+    <color name="circle_blue">#4EA5FF</color>
+    <color name="circle_purple">#A570FF</color>
+    <color name="button_blue">#007AD2</color>
+    <color name="button_tranparent_blue">#007AD2</color>
+
+    <color name="text_red">#FF2929</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
